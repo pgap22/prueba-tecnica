@@ -21,8 +21,6 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
 Asegúrate de estar en la carpeta del proyecto y ejecuta:
 	```bash
 	npm install
-	# o
-	yarn install
 	```
 3. **Configurar Prisma y la BD:** Crea un archivo `.env` en la raíz del proyecto y añade la URL de tu base de datos:
 
