@@ -6,7 +6,7 @@ Este proyecto es una aplicación de Next.js para realizar un CRUD de productos
 
 Asegúrate de tener instalado lo siguiente en tu sistema:
 
-- [Node.js](https://nodejs.org/) (versión 14 o superior)
+- [Node.js](https://nodejs.org/)
 - [PostgreSQL](https://www.postgresql.org/download/)
 
 ## Configuración del Proyecto
