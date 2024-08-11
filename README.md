@@ -14,7 +14,7 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
 1. **Clonar el Repositorio:**
 
    ```bash
-   git clone <url-del-repositorio>
+   git clone https://github.com/pgap22/prueba-tecnica
    cd prueba-tecnica
    ```
 2.  **Instalar las Dependencias:**
