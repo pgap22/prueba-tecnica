@@ -6,7 +6,7 @@ Este proyecto es una aplicación de Next.js para realizar un CRUD de productos
 
 Asegúrate de tener instalado lo siguiente en tu sistema:
 
-- [Node.js](https://nodejs.org/)
+- [Node.js](https://nodejs.org/) 
 - [PostgreSQL](https://www.postgresql.org/download/)
 
 ## Configuración del Proyecto
@@ -34,42 +34,36 @@ Asegúrate de estar en la carpeta del proyecto y ejecuta:
 	Luego ejecuta el siguiente script para rellenar la bd con algunas categorias
 	```bash
 	npm run seed
-
+	```
 ## Ejecución de la aplicación
 
 ### Modo de desarrollo
 
 Para iniciar la aplicación en modo de desarrollo, usa:
 
-bash
-
-Copiar código
-
-`npm run dev` 
-
+```bash
+npm run dev
+```
 Esto levantará un servidor en `http://localhost:3000` donde puedes ver y desarrollar la aplicación.
 
 ### Construcción para producción
 
 Para construir la aplicación para producción, ejecuta:
 
-bash
 
-Copiar código
-
-`npm run build` 
-
+```bash 
+npm run build` 
+```
 Esto generará una carpeta `.next` con todos los archivos optimizados para producción.
 
 ### Ejecución en producción
 
 Después de construir la aplicación, puedes iniciarla en modo de producción usando:
 
-bash
 
-Copiar código
-
-`npm start` 
+```bash 
+npm start 
+```
 
 La aplicación estará disponible en `http://localhost:3000`.
 
