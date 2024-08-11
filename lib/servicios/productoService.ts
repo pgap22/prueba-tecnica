@@ -43,10 +43,12 @@ const eliminarProducto = async (id: number) => {
     });
 };
 
-export default {
+const productoService =  {
     crearProducto,
     obtenerProductoPorId,
     obtenerProductos,
     actualizarProducto,
     eliminarProducto,
 };
+
+export default productoService

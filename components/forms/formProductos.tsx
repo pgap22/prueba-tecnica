@@ -101,7 +101,7 @@ export default function FormProducto({ type, categorias, producto }: FormProduct
                                 </SelectTrigger>
                                 <SelectContent>
                                     {(categorias as Categoria[]).map(categoria => (
-                                        <SelectItem value={"" + categoria.id}>{categoria.nombre}</SelectItem>
+                                        <SelectItem key={categoria.id} value={"" + categoria.id}>{categoria.nombre}</SelectItem>
                                     ))}
                                 </SelectContent>
                             </Select>

@@ -42,10 +42,13 @@ const eliminarCategoria = async (id: number) => {
     });
 };
 
-export default {
+const categoriaService = {
     crearCategoria,
     obtenerCategoriaPorId,
     obtenerCategorias,
     actualizarCategoria,
     eliminarCategoria
 }
+
+
+export default categoriaService
